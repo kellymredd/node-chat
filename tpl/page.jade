@@ -1,0 +1,12 @@
+extends base.jade
+
+block title= "HavaChat"
+    
+block content
+        #conversation
+        #users
+            <h4>Users:</h4>
+            div
+        .controls
+            input#data(type='text', placeholder='Message')
+            input#send(type='button', value='Send', id='datasend')

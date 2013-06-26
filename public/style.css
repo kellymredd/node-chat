@@ -1,0 +1,9 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Helvetica, Arial; font-size: 12px; margin: 20px auto 0; width: 100%; max-width: 748px; }
+#conversation { float: left; color: #666; padding: 0 5px; width: 80%; height:300px; margin:0 0 20px; border:solid 1px #999;overflow-y:scroll; }
+#conversation > .msg { padding: 8px 10px; width: 100%; }
+#conversation > .msg:nth-child(even) { background: #f7f7f7; }
+#users { float: left; padding: 0 5px; width: 20%; }
+#users > h4 { margin-bottom: 10px; }
+input[type="text"] { margin: 0 10px 10px 0; padding: 5px; width: 450px; }
+input[type="button"] { padding: 5px; }
